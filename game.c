@@ -138,7 +138,7 @@ char IsWin(char board[ROW][COL], int row, int col)
 	{
 		for (j = 0; j < col; j++)
 		{
-			if (board[i][j] == board[i + 1][j + 1] && board[i + 1][j + 1] == board[i + 2][j + 2] && board[i + 1][j + 1] != ' ')
+			if (board[i][j] == board[i+1][j + 1] && board[i + 1][j + 1] == board[i + 2][j + 2] && board[i + 1][j + 1] != ' ')
 				return board[i + 1][j + 1];
 		}
 	}
