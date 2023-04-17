@@ -1,6 +1,4 @@
-
 #include"game.h"
-
 
 void welcome()
 {
